@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form >
+        <label >FullName:</label>
+        <input type="text" name="FullName" value="Shahd" required >
+        <br><br>
+        <label for="">Email:</label>
+        <input type="email" placeholder="enter your email">
+        <br><br>
+        <label>PassWord : </label>
+        <input type="password"  placeholder="enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title=" Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+        <label for="">age</label>
+        <input type="number" name="" id="">
+        <br><br>
+        <label for="">Step by 10: </label>
+        <input type="number" step="10">
+        <br><br>
+        <label for="">Gender</label>
+        <input type="radio" name="Gender" id="" value="male" ><label>Male</label>
+        <input type="radio" name="Gender" id="" value="female"><span>feMale</span>
+        <br><br>
+        <label for="">programming languages:</label>
+        <input type="checkbox" name="proLanguage" value="java" id=""><label for="">java</label>
+        <input type="checkbox" name="proLanguage" id="" value="javascript"><label for="">javascript</label>
+        <input type="checkbox" name="proLanguage" id="" value="python"><label for="">python</label>
+
+        <br>
+        <label for="">Courses</label>
+        <select name="userCourse" id="" multiple>
+            <option value="" disabled selected>choose course</option>
+            <option value="fr">frontend</option>
+            <option value="be">backend</option>
+            <option value="nt">network</option>
+            <option value="bs">bootstrab</option>
+        </select>
+        <br>
+        <input type="file" multiple name="userFile" accept=".pdf">
+        <br><br>
+        <button type="reset">reset</button>
+        <input type="reset" value="clear">
+
+       
+
+
+        <button type="submit">Submit</button>
+        <input type="submit" value="Register" placeholder="enter your email">
+        <br>
+        
+    </form>
+</body>
+</html>

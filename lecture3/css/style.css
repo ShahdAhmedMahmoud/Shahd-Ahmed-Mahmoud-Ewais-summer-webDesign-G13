@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    color: blue;
+}
+.text-gray{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+
+#registerForm{
+    padding: 2%;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+#register input{
+    border: none;
+    padding: 3%;
+    width: 100%;
+    
+}
+section{
+    background-color: black;
+    height: 600px;
+}

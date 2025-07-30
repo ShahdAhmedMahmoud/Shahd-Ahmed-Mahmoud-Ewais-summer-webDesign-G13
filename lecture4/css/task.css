@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 1% 0%;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.bg-dark{
+    background-color: black;
+}
+ul{
+    list-style: none;
+    width: 30%;
+}
+ul li{
+    margin-left: 5%;
+    
+}
+.ancor-style{
+    
+    color: rgb(223, 219, 212);
+    text-decoration: none;    
+}
+.float-right{
+    float: right;
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.light-header{
+    color: rgb(171, 85, 5);
+    font-weight: lighter;
+}
+.bold-header{
+     color: rgb(223, 219, 212);
+    font-weight: bolder;
+
+}
+.d-inline-block{
+    display: inline-block;
+}
+.banner{
+    background-image: url(../imgs/vw6On.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
